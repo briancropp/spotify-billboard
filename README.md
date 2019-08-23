@@ -29,7 +29,7 @@ filename = "join_basic" # New file name
 sqlexecute(command, filename) # Run the SQL execute function to run the
 command and output file
 ```
-First%2 0 Question_CS_Final.png
+![Question 1](https://raw.githubusercontent.com/briancropp/spotify-billboard/master/First%20Question_CS_Final.png)
 
 ```
 In [4]: from IPython.display import Image
@@ -129,9 +129,7 @@ group by Top_100_Songs_All_Time.Year
 filename = "group_by_year_avg"
 sqlexecute(command, filename)
 ```
-```
-Third%2 0 Question_CS_Final.png
-```
+![Image description](link-to-image)
 ```
 In [1]: from IPython.display import Image
 Image(filename='Third Question_CS_Final.png')
