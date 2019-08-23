@@ -31,11 +31,6 @@ command and output file
 ```
 ![Question 1](https://raw.githubusercontent.com/briancropp/spotify-billboard/master/First%20Question_CS_Final.png)
 
-```
-In [4]: from IPython.display import Image
-Image(filename='First Question_CS_Final.png')
-Out[4]:
-```
 
 We wanted to create an image to elp us answer this question. When first exploring the data, we wanted to see if
 there were traits that would help us understand what specific attributes make a hit song. By looking at this
@@ -75,14 +70,9 @@ group by Top_100_Songs_All_Time.Year
 filename = "group_by_year_avg"
 sqlexecute(command, filename)
 ```
-```
-Second%2 0 Question_CS_Final.png
-```
+![Question 1.2](https://raw.githubusercontent.com/briancropp/spotify-billboard/master/Second%20Question_CS_Final.png)
 
-```
-In [3]: from IPython.display import Image
-Image(filename='Second Question_CS_Final.png')
-```
+
 In this next visual we wanted to create something that would help us see trends of an increase or decrease of
 characteristics of a song. When we first explored the data, given to us through the use of Spotify, and after the
 creation of the previous graph we decided to create an image to help portray to you what variables have
@@ -98,13 +88,8 @@ words better.
 
 ## Question 2
 
-### Is there any other variable that could account for the rise of EDM in music
+### Is there any other variable that could account for the rise of EDM in music today?
 
-### today?
-
-```
-Out[3]:
-```
 
 The whole concept of Electronic Dance Music has become popular in the past few years. THe genre is a
 product of tech changes in music production as the style of producing the denre of music is all computer
@@ -129,12 +114,8 @@ group by Top_100_Songs_All_Time.Year
 filename = "group_by_year_avg"
 sqlexecute(command, filename)
 ```
-![Image description](link-to-image)
-```
-In [1]: from IPython.display import Image
-Image(filename='Third Question_CS_Final.png')
-Out[1]:
-```
+![Question 3](https://raw.githubusercontent.com/briancropp/spotify-billboard/master/Third%20Question_CS_Final.png)
+
 
 In this visual, we wanted to draw from our first visual that we created, which talked about what variables have
 stayed the same since 1941. One of the variables on the first visual was tempo, which shocked us that it stayed
@@ -169,14 +150,9 @@ where table1.count >= 10
 filename = "top_charting"
 sqlexecute(command, filename)
 ```
-```
-Fourth%2 0 Question_CS_Final%2 0 .png
-```
 
-```
-In [1]: from IPython.display import Image
-Image(filename='Fourth Question_CS_Final .png')
-```
+![Question 4](https://raw.githubusercontent.com/briancropp/spotify-billboard/master/Fourth%20Question_CS_Final.png)
+
 In this last image we created an image to help us explain who had the most top 100 billboard songs since 1941.
 We decided to use this kind of visual because it gave us the ability to show with the use of size, who had the
 most hit songs. Looking at the box visual we can see that Elvis Presley has the most hit songs followed up by
@@ -201,10 +177,4 @@ we can still ask questions, such as: What makes Elvis Pressley have the most amo
 conisder what artist has the most dancibility rating. Like we stated earlier, we enjoyed our time doing this
 project, and have learned a lot from this project.
 
-```
-In [ ]:
-```
-```
-Out[1]:
-```
 
